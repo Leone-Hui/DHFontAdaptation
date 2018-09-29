@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *fristLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *secondLabel;
+@property (weak, nonatomic) IBOutlet UILabel *thirdLabel;
+@property (weak, nonatomic) IBOutlet UILabel *fourthLabel;
 
 @end
 

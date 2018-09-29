@@ -15,6 +15,7 @@
 		2BD80B3D215F633B00823BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B3C215F633B00823BCB /* main.m */; };
 		2BD80B47215F633B00823BCB /* DHFontAdaptationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B46215F633B00823BCB /* DHFontAdaptationTests.m */; };
 		2BD80B52215F633B00823BCB /* DHFontAdaptationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B51215F633B00823BCB /* DHFontAdaptationUITests.m */; };
+		2BD80B68215F6B5B00823BCB /* UIFont+DHSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B67215F6B5B00823BCB /* UIFont+DHSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,15 @@
 		2BD80B4D215F633B00823BCB /* DHFontAdaptationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHFontAdaptationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD80B51215F633B00823BCB /* DHFontAdaptationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHFontAdaptationUITests.m; sourceTree = "<group>"; };
 		2BD80B53215F633B00823BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD80B5F215F63EE00823BCB /* DHSizeMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHSizeMacros.h; sourceTree = "<group>"; };
+		2BD80B60215F645C00823BCB /* DHPathMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHPathMacros.h; sourceTree = "<group>"; };
+		2BD80B61215F64DE00823BCB /* DHUtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHUtilsMacros.h; sourceTree = "<group>"; };
+		2BD80B62215F655500823BCB /* DHNotificationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHNotificationMacros.h; sourceTree = "<group>"; };
+		2BD80B63215F65AB00823BCB /* DHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHMacros.h; sourceTree = "<group>"; };
+		2BD80B64215F65C900823BCB /* DHAPIStringMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAPIStringMacros.h; sourceTree = "<group>"; };
+		2BD80B65215F695D00823BCB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2BD80B66215F6B5B00823BCB /* UIFont+DHSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+DHSize.h"; sourceTree = "<group>"; };
+		2BD80B67215F6B5B00823BCB /* UIFont+DHSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DHSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,15 @@
 				2BD80B38215F633B00823BCB /* LaunchScreen.storyboard */,
 				2BD80B3B215F633B00823BCB /* Info.plist */,
 				2BD80B3C215F633B00823BCB /* main.m */,
+				2BD80B5F215F63EE00823BCB /* DHSizeMacros.h */,
+				2BD80B60215F645C00823BCB /* DHPathMacros.h */,
+				2BD80B61215F64DE00823BCB /* DHUtilsMacros.h */,
+				2BD80B62215F655500823BCB /* DHNotificationMacros.h */,
+				2BD80B63215F65AB00823BCB /* DHMacros.h */,
+				2BD80B64215F65C900823BCB /* DHAPIStringMacros.h */,
+				2BD80B65215F695D00823BCB /* PrefixHeader.pch */,
+				2BD80B66215F6B5B00823BCB /* UIFont+DHSize.h */,
+				2BD80B67215F6B5B00823BCB /* UIFont+DHSize.m */,
 			);
 			path = DHFontAdaptation;
 			sourceTree = "<group>";
@@ -263,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD80B32215F633A00823BCB /* ViewController.m in Sources */,
+				2BD80B68215F6B5B00823BCB /* UIFont+DHSize.m in Sources */,
 				2BD80B3D215F633B00823BCB /* main.m in Sources */,
 				2BD80B2F215F633A00823BCB /* AppDelegate.m in Sources */,
 			);
@@ -370,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +457,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AZ74EF942;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHFontAdaptation/PrefixHeader.pch";
 				INFOPLIST_FILE = DHFontAdaptation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +476,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AZ74EF942;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHFontAdaptation/PrefixHeader.pch";
 				INFOPLIST_FILE = DHFontAdaptation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
