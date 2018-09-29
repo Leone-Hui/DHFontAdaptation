@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BD80B2F215F633A00823BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B2E215F633A00823BCB /* AppDelegate.m */; };
+		2BD80B32215F633A00823BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B31215F633A00823BCB /* ViewController.m */; };
+		2BD80B35215F633A00823BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD80B33215F633A00823BCB /* Main.storyboard */; };
+		2BD80B37215F633B00823BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD80B36215F633B00823BCB /* Assets.xcassets */; };
+		2BD80B3A215F633B00823BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD80B38215F633B00823BCB /* LaunchScreen.storyboard */; };
+		2BD80B3D215F633B00823BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B3C215F633B00823BCB /* main.m */; };
+		2BD80B47215F633B00823BCB /* DHFontAdaptationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B46215F633B00823BCB /* DHFontAdaptationTests.m */; };
+		2BD80B52215F633B00823BCB /* DHFontAdaptationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD80B51215F633B00823BCB /* DHFontAdaptationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD80B43215F633B00823BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD80B22215F633A00823BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD80B29215F633A00823BCB;
+			remoteInfo = DHFontAdaptation;
+		};
+		2BD80B4E215F633B00823BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD80B22215F633A00823BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD80B29215F633A00823BCB;
+			remoteInfo = DHFontAdaptation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BD80B2A215F633A00823BCB /* DHFontAdaptation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHFontAdaptation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD80B2D215F633A00823BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BD80B2E215F633A00823BCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BD80B30215F633A00823BCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BD80B31215F633A00823BCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BD80B34215F633A00823BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BD80B36215F633B00823BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD80B39215F633B00823BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BD80B3B215F633B00823BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD80B3C215F633B00823BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BD80B42215F633B00823BCB /* DHFontAdaptationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHFontAdaptationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD80B46215F633B00823BCB /* DHFontAdaptationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHFontAdaptationTests.m; sourceTree = "<group>"; };
+		2BD80B48215F633B00823BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD80B4D215F633B00823BCB /* DHFontAdaptationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHFontAdaptationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD80B51215F633B00823BCB /* DHFontAdaptationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHFontAdaptationUITests.m; sourceTree = "<group>"; };
+		2BD80B53215F633B00823BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD80B27215F633A00823BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD80B3F215F633B00823BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD80B4A215F633B00823BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD80B21215F633A00823BCB = {
+			isa = PBXGroup;
+			children = (
+				2BD80B2C215F633A00823BCB /* DHFontAdaptation */,
+				2BD80B45215F633B00823BCB /* DHFontAdaptationTests */,
+				2BD80B50215F633B00823BCB /* DHFontAdaptationUITests */,
+				2BD80B2B215F633A00823BCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD80B2B215F633A00823BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD80B2A215F633A00823BCB /* DHFontAdaptation.app */,
+				2BD80B42215F633B00823BCB /* DHFontAdaptationTests.xctest */,
+				2BD80B4D215F633B00823BCB /* DHFontAdaptationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD80B2C215F633A00823BCB /* DHFontAdaptation */ = {
+			isa = PBXGroup;
+			children = (
+				2BD80B2D215F633A00823BCB /* AppDelegate.h */,
+				2BD80B2E215F633A00823BCB /* AppDelegate.m */,
+				2BD80B30215F633A00823BCB /* ViewController.h */,
+				2BD80B31215F633A00823BCB /* ViewController.m */,
+				2BD80B33215F633A00823BCB /* Main.storyboard */,
+				2BD80B36215F633B00823BCB /* Assets.xcassets */,
+				2BD80B38215F633B00823BCB /* LaunchScreen.storyboard */,
+				2BD80B3B215F633B00823BCB /* Info.plist */,
+				2BD80B3C215F633B00823BCB /* main.m */,
+			);
+			path = DHFontAdaptation;
+			sourceTree = "<group>";
+		};
+		2BD80B45215F633B00823BCB /* DHFontAdaptationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD80B46215F633B00823BCB /* DHFontAdaptationTests.m */,
+				2BD80B48215F633B00823BCB /* Info.plist */,
+			);
+			path = DHFontAdaptationTests;
+			sourceTree = "<group>";
+		};
+		2BD80B50215F633B00823BCB /* DHFontAdaptationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD80B51215F633B00823BCB /* DHFontAdaptationUITests.m */,
+				2BD80B53215F633B00823BCB /* Info.plist */,
+			);
+			path = DHFontAdaptationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD80B29215F633A00823BCB /* DHFontAdaptation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD80B56215F633B00823BCB /* Build configuration list for PBXNativeTarget "DHFontAdaptation" */;
+			buildPhases = (
+				2BD80B26215F633A00823BCB /* Sources */,
+				2BD80B27215F633A00823BCB /* Frameworks */,
+				2BD80B28215F633A00823BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHFontAdaptation;
+			productName = DHFontAdaptation;
+			productReference = 2BD80B2A215F633A00823BCB /* DHFontAdaptation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BD80B41215F633B00823BCB /* DHFontAdaptationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD80B59215F633B00823BCB /* Build configuration list for PBXNativeTarget "DHFontAdaptationTests" */;
+			buildPhases = (
+				2BD80B3E215F633B00823BCB /* Sources */,
+				2BD80B3F215F633B00823BCB /* Frameworks */,
+				2BD80B40215F633B00823BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD80B44215F633B00823BCB /* PBXTargetDependency */,
+			);
+			name = DHFontAdaptationTests;
+			productName = DHFontAdaptationTests;
+			productReference = 2BD80B42215F633B00823BCB /* DHFontAdaptationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BD80B4C215F633B00823BCB /* DHFontAdaptationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD80B5C215F633B00823BCB /* Build configuration list for PBXNativeTarget "DHFontAdaptationUITests" */;
+			buildPhases = (
+				2BD80B49215F633B00823BCB /* Sources */,
+				2BD80B4A215F633B00823BCB /* Frameworks */,
+				2BD80B4B215F633B00823BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD80B4F215F633B00823BCB /* PBXTargetDependency */,
+			);
+			name = DHFontAdaptationUITests;
+			productName = DHFontAdaptationUITests;
+			productReference = 2BD80B4D215F633B00823BCB /* DHFontAdaptationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD80B22215F633A00823BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "惠大河";
+				TargetAttributes = {
+					2BD80B29215F633A00823BCB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2BD80B41215F633B00823BCB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2BD80B29215F633A00823BCB;
+					};
+					2BD80B4C215F633B00823BCB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2BD80B29215F633A00823BCB;
+					};
+				};
+			};
+			buildConfigurationList = 2BD80B25215F633A00823BCB /* Build configuration list for PBXProject "DHFontAdaptation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BD80B21215F633A00823BCB;
+			productRefGroup = 2BD80B2B215F633A00823BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD80B29215F633A00823BCB /* DHFontAdaptation */,
+				2BD80B41215F633B00823BCB /* DHFontAdaptationTests */,
+				2BD80B4C215F633B00823BCB /* DHFontAdaptationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD80B28215F633A00823BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD80B3A215F633B00823BCB /* LaunchScreen.storyboard in Resources */,
+				2BD80B37215F633B00823BCB /* Assets.xcassets in Resources */,
+				2BD80B35215F633A00823BCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD80B40215F633B00823BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD80B4B215F633B00823BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD80B26215F633A00823BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD80B32215F633A00823BCB /* ViewController.m in Sources */,
+				2BD80B3D215F633B00823BCB /* main.m in Sources */,
+				2BD80B2F215F633A00823BCB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD80B3E215F633B00823BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD80B47215F633B00823BCB /* DHFontAdaptationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD80B49215F633B00823BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD80B52215F633B00823BCB /* DHFontAdaptationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD80B44215F633B00823BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD80B29215F633A00823BCB /* DHFontAdaptation */;
+			targetProxy = 2BD80B43215F633B00823BCB /* PBXContainerItemProxy */;
+		};
+		2BD80B4F215F633B00823BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD80B29215F633A00823BCB /* DHFontAdaptation */;
+			targetProxy = 2BD80B4E215F633B00823BCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BD80B33215F633A00823BCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD80B34215F633A00823BCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BD80B38215F633B00823BCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD80B39215F633B00823BCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BD80B54215F633B00823BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BD80B55215F633B00823BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BD80B57215F633B00823BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHFontAdaptation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HDH.DHFontAdaptation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD80B58215F633B00823BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHFontAdaptation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HDH.DHFontAdaptation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BD80B5A215F633B00823BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHFontAdaptationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HDH.DHFontAdaptationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHFontAdaptation.app/DHFontAdaptation";
+			};
+			name = Debug;
+		};
+		2BD80B5B215F633B00823BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHFontAdaptationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HDH.DHFontAdaptationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHFontAdaptation.app/DHFontAdaptation";
+			};
+			name = Release;
+		};
+		2BD80B5D215F633B00823BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHFontAdaptationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HDH.DHFontAdaptationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DHFontAdaptation;
+			};
+			name = Debug;
+		};
+		2BD80B5E215F633B00823BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AZ74EF942;
+				INFOPLIST_FILE = DHFontAdaptationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HDH.DHFontAdaptationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DHFontAdaptation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD80B25215F633A00823BCB /* Build configuration list for PBXProject "DHFontAdaptation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD80B54215F633B00823BCB /* Debug */,
+				2BD80B55215F633B00823BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD80B56215F633B00823BCB /* Build configuration list for PBXNativeTarget "DHFontAdaptation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD80B57215F633B00823BCB /* Debug */,
+				2BD80B58215F633B00823BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD80B59215F633B00823BCB /* Build configuration list for PBXNativeTarget "DHFontAdaptationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD80B5A215F633B00823BCB /* Debug */,
+				2BD80B5B215F633B00823BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD80B5C215F633B00823BCB /* Build configuration list for PBXNativeTarget "DHFontAdaptationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD80B5D215F633B00823BCB /* Debug */,
+				2BD80B5E215F633B00823BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BD80B22215F633A00823BCB /* Project object */;
+}
